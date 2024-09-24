@@ -1,0 +1,11 @@
+<html>
+<body>
+    <h1>Игры</h1>
+    <ul>
+    {% for game, button in games.items %}
+        <li>{{ game }} <button>{{ button }}</button></li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'main_page' %}">Вернуться обратно</a>
+</body>
+</html>
