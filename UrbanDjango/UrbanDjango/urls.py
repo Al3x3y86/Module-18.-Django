@@ -19,7 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('platform/', include('task3.urls')),  # Включаем маршруты приложения task3
+    path('platform/', include('task4.urls')),  # Включаем маршруты приложения task3
 ]
 
 
